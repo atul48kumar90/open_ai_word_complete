@@ -23,11 +23,7 @@ jobs:
 
       - uses: subosito/flutter-action@v1
         with:
-<<<<<<< HEAD
-          flutter-version: '2.2.0'
-=======
           flutter-version: '3.0.0'
->>>>>>> parent of 00710f4 ("attemp 2")
 
       - run: flutter pub get
       - run: flutter format --set-exit-if-changed .
